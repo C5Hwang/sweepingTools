@@ -25,7 +25,7 @@ usage: python3 btorsweeping.py [ <option> ... ]
 where <option> is one of the following
 
   --model <model>         load model from <model> in 'BTOR' format
-  --bound <b>             Bound to check up until <b> (default: 0)
+  --bound <b>             bound to check up until <b> (default: 0)
   --step <n>              generate <n> random transitions (default 100000)
   --nThreads <t>          number of <t> threads allowed (default 8)
   --cutoff <s>            the wall time for SAT solving is set to <s> (default 600 seconds)
