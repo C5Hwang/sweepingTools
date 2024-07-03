@@ -335,7 +335,7 @@ int main(int argc, char const *argv[]) {
     if (1 < j - i + 1 && j - i + 1 <= capacity) {
       for (size_t x = i; x <= j; ++x)
         for (size_t y = x + 1; y <= j; ++y)
-          candidate.emplace_back(x, y);
+          candidate.emplace_back(hash_set[x].second, hash_set[y].second);
       ++group;
     }
     i = j + 1;
